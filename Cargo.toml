@@ -1,0 +1,10 @@
+[package]
+name = "dr-editor"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80.0"
+
+[dependencies]
+dr-engine = { path = "../../core/dr-engine" }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
