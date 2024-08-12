@@ -23,6 +23,6 @@ fn main() {
             // overriding any defaults with data from the command line
             .override_with(CommandLineArgs::build(&env::args().collect()));
 
-    Application::new(application_definition)
+    Application::with_application_definition(application_definition)
         .run();
 }
